@@ -1,0 +1,20 @@
+{
+  "name": "ticket-bot-api",
+  "version": "1.0.0",
+  "description": "api of ticket bot",
+  "main": "index.js",
+  "author": "Philipp Wruck <philipp@perspective.co>",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev index.js -p 3001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv-safe": "^6.1.0",
+    "micro": "^9.3.3",
+    "micro-dev": "^3.0.0",
+    "mongoose": "^5.3.15",
+    "url": "^0.11.0"
+  }
+}
